@@ -34,7 +34,7 @@ import {
   telegram,
   twitter,
   yourlogo,
-} from "../../public/assets";
+} from "../assets/assets";
 
 export const navigation = [
   {
@@ -77,9 +77,19 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = ["Photo generating", "Photo enhance", "Seamless Integration"];
+export const brainwaveServices = [
+  "Photo generating",
+  "Photo enhance",
+  "Seamless Integration",
+];
 
-export const brainwaveServicesIcons = [recording03, recording01, disc02, chromecast, sliders04];
+export const brainwaveServicesIcons = [
+  recording03,
+  recording01,
+  disc02,
+  chromecast,
+  sliders04,
+];
 
 export const roadmap = [
   {
@@ -117,7 +127,8 @@ export const roadmap = [
   },
 ];
 
-export const collabText = "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+export const collabText =
+  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
 
 export const collabContent = [
   {
